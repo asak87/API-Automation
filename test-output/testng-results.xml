@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9875" started-at="2020-12-16T14:51:31Z" finished-at="2020-12-16T14:51:41Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9875" started-at="2020-12-16T14:51:31Z" finished-at="2020-12-16T14:51:41Z">
+      <class name="APITest.Test.Getresource">
+        <test-method status="PASS" signature="init()[pri:0, instance:APITest.Test.Getresource@61832929]" name="init" is-config="true" duration-ms="9" started-at="2020-12-16T14:51:31Z" finished-at="2020-12-16T14:51:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="basicValidation()[pri:0, instance:APITest.Test.Getresource@61832929]" name="basicValidation" duration-ms="2380" started-at="2020-12-16T14:51:31Z" description="Verify contentType, serverType, acceptLanguage" finished-at="2020-12-16T14:51:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basicValidation -->
+        <test-method status="PASS" signature="notEmpty()[pri:0, instance:APITest.Test.Getresource@61832929]" name="notEmpty" duration-ms="1000" started-at="2020-12-16T14:51:33Z" description="Verify that the starting Employees list is not empty." finished-at="2020-12-16T14:51:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- notEmpty -->
+        <test-method status="PASS" signature="ping()[pri:0, instance:APITest.Test.Getresource@61832929]" name="ping" duration-ms="1139" started-at="2020-12-16T14:51:34Z" description="Check REST server availability." finished-at="2020-12-16T14:51:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ping -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:APITest.Test.Getresource@61832929]" name="test1" duration-ms="1779" started-at="2020-12-16T14:51:35Z" description="Bad Request" finished-at="2020-12-16T14:51:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:APITest.Test.Getresource@61832929]" name="test2" duration-ms="1451" started-at="2020-12-16T14:51:37Z" description="invalid parameter" finished-at="2020-12-16T14:51:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="validateResourceDetails()[pri:0, instance:APITest.Test.Getresource@61832929]" name="validateResourceDetails" duration-ms="1187" started-at="2020-12-16T14:51:39Z" description="Verify the response for the resource ID, Name and Year" finished-at="2020-12-16T14:51:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateResourceDetails -->
+        <test-method status="PASS" signature="validateResponseTime()[pri:0, instance:APITest.Test.Getresource@61832929]" name="validateResponseTime" duration-ms="911" started-at="2020-12-16T14:51:40Z" description="Verify response time" finished-at="2020-12-16T14:51:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateResponseTime -->
+      </class> <!-- APITest.Test.Getresource -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
